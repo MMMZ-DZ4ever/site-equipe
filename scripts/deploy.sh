@@ -8,10 +8,10 @@ cd ~/serveur/site-equipe || { echo "Erreur : le dossier ~/serveur/site-equipe n'
 git pull
 
 # Copie de la page principale du site dans le dossier du serveur web
-cp index.html /var/www/html/
+sudo cp index.html /var/www/html/
 
 # Copie de la feuille de style au même endroit
-cp style.css /var/www/html/
+sudo cp style.css /var/www/html/
 
 # Affiche un message pour dire que tout s'est bien passé
 echo "Déploiement terminé : le site est à jour !"
